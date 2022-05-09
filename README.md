@@ -10,6 +10,11 @@ Then downnload mail.py if you have done that go to cmd on windows or your comman
    
    python3 mail.py   
 
-usage + information 
+Usage + Information 
 
-after you type in the command you will be asked to ent the victims email addres
+After you have typed in the command you will be asked to enter the victims email addres. 
+The email addres in the code is a now public addres made with only fake data and in a tor enviorment. 
+
+Security 
+
+Using this tool obviously will make you a pretty easy target but using Tails linux in a Vm (Virtualbox or Kvm) or in a real enviourment will make this very hard to track.
