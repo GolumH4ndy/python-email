@@ -6,7 +6,7 @@ for a pip inrstall guide : https://pip.pypa.io/en/stable/user_guide/
 
 Then downnload mail.py if you have done that go to cmd on windows or your command line in linux or mac os and type 
    
-   cd Downloads
+   cd Downloads \n
    python3 mail.py   
 
 usage + information 
