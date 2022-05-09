@@ -5,18 +5,19 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText 
 number_of_emails_sent = 0 
 n = int(0) 
+a = int(0)
 mail_content = 'have fun'
 sender_address = "python.bot.spam@outlook.com"
 sender_pass = '34wutl76tierbgsdfvdafwdawd'
 receiver_address = input("enter the email adress of the person who is going to recive the spam:""" )
 def ThFun(start, stop):
-    for item in range(start, stop):
-        print (item)  
+    for item in range(start, stop): 
+      a=0  
 
 for i in range(n):
   mail_content = 'have fun' 
   sender_address = "python.bot.spam@outlook.com"
-  sender_pass = '5U5ZU$CtPWxUF*r+'
+  sender_pass = '34wutl76tierbgsdfvdafwdawd'
   message = MIMEMultipart()
   message['From'] = sender_address
   message['To'] = receiver_address
@@ -320,5 +321,5 @@ threading.Thread(target = ThFun, args = (n, stop)).start()
 threading.Thread(target = ThFun, args = (n, stop)).start() 
 threading.Thread(target = ThFun, args = (n, stop)).start() 
 threading.Thread(target = ThFun, args = (n, stop)).start() 
-threading.Thread(target = ThFun, args = (n, stop)).start()  
-print("finished")
+threading.Thread(target = ThFun, args = (n, stop)).start() 
+print("done")
